@@ -27,7 +27,7 @@ ALLOWED_HOSTS = ['*']
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv('DJANGO_KEY')
 
-DEBUG = False
+DEBUG = True
 
 
 
@@ -85,7 +85,7 @@ DATABASES = {
         "NAME": os.getenv('POSTGRES_NAME', 'postgres'),
         "USER": os.getenv('POSTGRES_USER', 'postgres'),
         "PASSWORD": os.getenv('POSTGRES_PW', 'postgres'),
-        "HOST": os.getenv('POSTGRES_HOST', 'postgres'),
+        "HOST": os.getenv('POSTGRES_HOST', 'localhost'),
         "PORT": os.getenv('POSTGRES_PORT', '5432'),
     }
 }
