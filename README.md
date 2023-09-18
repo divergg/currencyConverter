@@ -22,7 +22,7 @@ http://django:8000/statistics - recieve statistics on requests
 http://django:8000/docs/ - documentation (SWAGGER)
 
 # Screenshot from SWAGGER
-![image]([https://github.com/divergg/currencyConverter/images/](https://github.com/divergg/currencyConverter/tree/master/images/1.png])
+![image]([https://github.com/divergg/currencyConverter/tree/master/images/1.png])
 
 
 # Launch procedure
